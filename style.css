@@ -25,9 +25,15 @@ li, strong,h1,h2,h3 {
 .logo{
     width: 30%;
     float: left;
+    font-size: 25px;
 }
 .nav-div{
     width: 70%; 
     float: left;
     font-size: 20px;
+}
+/* About */
+
+.about-msg{
+    
 }
