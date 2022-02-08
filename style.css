@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.back-img{
+    background-image: url('intro-bg.jpg');
+    height: 630px; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+li, strong,h1,h2,h3 {
+    color: white;
+}
+.navigation{
+    width: 70%; 
+    margin: auto; 
+    align-items: center;
+}
+.nav-btn{
+    list-style: none; 
+    display:flex; 
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.nav-div{
+    width: 70%; 
+    float: left;
+}
