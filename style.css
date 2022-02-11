@@ -1,39 +1,43 @@
+*{
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     padding: 0;
 }
 .back-img{
-    background-image: url('intro-bg.jpg');
-    height: 630px; 
-    background-repeat: no-repeat; 
+    background-image: url('img/intro-bg.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-li, strong,h1,h2,h3 {
-    color: white;
-}
-.navigation{
-    width: 70%; 
-    margin: auto; 
-    align-items: center;
-}
-.nav-btn{
-    list-style: none; 
-    display:flex; 
-    justify-content: space-between;
 }
 .logo{
     width: 30%;
     float: left;
-    font-size: 25px;
+    padding-top: 20px;
 }
-.nav-div{
-    width: 70%; 
-    float: left;
-    font-size: 20px;
+.home-msg{
+    width: 60%; 
+    line-height: 2;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
 }
-/* About */
-
-.about-msg{
-    
+.showcase{
+    font-weight: 500 !important;
+}
+.promo{
+    background-color:#575a5c ;
+}
+.list-style{
+    list-style: none;
+}
+.foot-color{
+    color: white;
+}
+.foot-color a{
+    color: white;
+}
+.dis-flex{
+    display: flex; 
+    justify-content: space-around;
 }
